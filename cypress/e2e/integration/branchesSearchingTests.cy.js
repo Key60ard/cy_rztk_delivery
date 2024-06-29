@@ -6,8 +6,11 @@ import branchesPage from "../pages/BranchesPage"
 
 describe('Branches Searching Tests', () => {
 
-    it('User can open Department list of the city', () => {
+    beforeEach(() => {
         branchesPage.visit()
+      })
+
+    it('User can open Department list of the city', () => {
         branchesPage.openDepartureTab()
         branchesPage.openReceivingTab()
         branchesPage.clickChipsOdesa()
@@ -16,7 +19,6 @@ describe('Branches Searching Tests', () => {
     })
 
     it('User can Lay a road to Department in Receiving tab', () => {
-        branchesPage.visit()
         branchesPage.openReceivingTab()
         branchesPage.clickChipsOdesa()
         branchesPage.clickDepartmentField()

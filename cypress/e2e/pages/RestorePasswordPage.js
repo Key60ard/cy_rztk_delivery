@@ -4,7 +4,6 @@ class RestorePasswordPage {
         phoneNumberField : () => cy.get('form[data-test="restoreFormScreen"] mat-label', { timeout: 2000 }),
         submitButton : () => cy.get('data-test="submitRestore"'),
         backButton : () => cy.get('data-test="goToAuth"')
-
    }
 
     visit() {

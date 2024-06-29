@@ -6,7 +6,7 @@ describe('Accessibility testing', () => {
         cy.injectAxe()
     })
 
-    it.only('should log any accessibility failures', () => {
+    it('should log any accessibility failures', () => {
         cy.checkA11y()
     })
 
