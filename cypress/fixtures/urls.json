@@ -1,0 +1,14 @@
+{
+    "LANDING_URL": "https://rozetka.delivery/tracking/landing",
+    "PARCEL_URL": "https://rozetka.delivery/tracking/parcel",
+    "SIGNIN_URL": "https://rozetka.delivery/auth/login",
+    "SIGNUP_URL": "https://rozetka.delivery/auth/registration",
+    "RESTORE_PASSWORD_URL": "https://rozetka.delivery/auth/restore-password",
+    "BRANCHES_URL": "https://rozetka.delivery/tracking/branches",
+    "RULES_URL": "https://rozetka.delivery/tracking/rules",
+    "TARIFFS_URL": "https://rozetka.delivery/tracking/tariffs",
+    "SUPPORT_TELEGRAM": "https://t.me/rzdelivery_bot",
+    "HELP_CENTER": "https://help.rozetka.delivery",
+    "TARIFF_MP_PDF": "https://s3-octopus.rozetka.ua/get/octopus/tariff-mp.pdf",
+    "TARIFF_OTHER_PDF": "https://s3-octopus.rozetka.ua/get/octopus/tariff-other.pdf"
+}

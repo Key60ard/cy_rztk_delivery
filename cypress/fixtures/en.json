@@ -1,0 +1,526 @@
+{
+    "app": {
+        "enter": "Enter",
+        "out": "Exit",
+        "back": "Back",
+        "continue": "Continue",
+        "short_second": "second",
+        "required_input": "Required field",
+        "phone_number": "Phone number",
+        "again": "Try again",
+        "create_new_parcel": "Create a new parcel",
+        "commission": "Commission",
+        "back_to_main": "Return to the main page",
+        "create": "Create",
+        "filtered": "Filter",
+        "searching": "Searching...",
+        "print": "Print",
+        "archive": "Archive",
+        "un_archive": "Un archive",
+        "in_archive": "In archive",
+        "export": "Export",
+        "delete": "Delete",
+        "return": "Cancel the parcel",
+        "sorting": "Sort",
+        "done_send": "Sent",
+        "page_size": "Rows per page:",
+        "sender": "Sender",
+        "delivery_cost": "Delivery cost",
+        "recipient": "Recipient",
+        "parcel": "Parcel",
+        "get_archive": "Archive",
+        "send": "Send",
+        "get_export": "Export",
+        "phone": "Phone",
+        "uah": "UAH",
+        "order_number": "Order number",
+        "copy": "Copy",
+        "clipboard_copy_done": "Copied successfully",
+        "no_products_found_message": "Nothing found on this request!",
+        "press_to_copy": "Click to copy",
+        "from": "from",
+        "kg": "kg",
+        "cm": "cm",
+        "get_copy": "Copy",
+        "detail": "More details",
+        "share": "Share",
+        "write_to_viber": "Send to Viber",
+        "cancel": "Close",
+        "number_parcel": "Parcel number",
+        "status": "Status",
+        "group_status": "Status groups",
+        "work_schedule": "Work schedule",
+        "date": "Date",
+        "pieces": "pc.",
+        "edit": "Edit",
+        "duplicate": "Duplicate",
+        "close": "Cancel",
+        "date_from": "from",
+        "date_to": "to",
+        "theme": "Theme",
+        "sub_theme": "Subtopic",
+        "next": "Next",
+        "prev": "Back"
+    },
+    "pagination": {
+        "items_per_page_label": "items per page:",
+        "next_page_label": "next",
+        "previous_page_label": "previous",
+        "first_page_label": "first",
+        "last_page_label": "last",
+        "range_page_label_1": "0 of {{length}}",
+        "range_page_label_2": "{{startIndex}} - {{endIndex}} of {{length}}",
+        "no_products_found_message": "Nothing found on this request!"
+    },
+    "header": {
+        "menu_1": "Parcel tracking",
+        "menu_2": "Branches",
+        "menu_3": "Packaging Rules",
+        "menu_4": "Services and tariffs",
+        "menu_5": "Connect",
+        "profile": "My profile",
+        "lang_interface": "Interface language"
+    },
+    "navigation": {
+        "parcel": {
+            "title": "Parcels"
+        },
+        "archived_parcels": {
+            "title": "Archived parcels"
+        },
+        "balance": {
+            "title": "Balance"
+        },
+        "support": {
+            "title": "Correspondence with support"
+        },
+        "settings": {
+            "title": "Settings",
+            "profile": "My profile",
+            "template": "Templates",
+            "key_api": "API keys",
+            "payments_integration": "Payments integration",
+            "documents": "Document management"
+        },
+        "help": {
+            "title": "Help"
+        }
+    },
+    "footer": {
+        "load_app": "Download the sender app",
+        "link_1": "Help Center",
+        "link_2": "Public offers",
+        "support_service": "Support Service",
+        "address": "© ROZETKA Delivery",
+        "address_2": "TM is used under the license of the right holder RozetkaLTD"
+    },
+    "landing": {
+        "title": "We deliver every time everything you need!",
+        "sub_title": "Register now and get the opportunity to deliver the package to any ROZETKA branch",
+        "legend": "Track the parcel",
+        "number_parcel": "Parcel number",
+        "track": "Track",
+        "section_title": "ROZETKA Delivery — is the one solution for all your business needs",
+        "service_title_1": "300+ delivery points across Ukraine",
+        "service_title_description_1": "Your customers will be able to choose any nearby convenient delivery point for them",
+        "service_title_2": "The best service for your customers",
+        "service_title_description_2": "Electronic queues, the possibility of fitting, comfortable waiting rooms and pleasant service from our employees",
+        "service_title_3": "Free returns",
+        "service_title_description_3": "We will return your unclaimed shipment back to the collection point free of charge",
+        "app_title": "Use ROZETKA Delivery",
+        "app_sub_title": "Register and enjoy the best offers for your customers",
+        "bot": "Track shipments with a <a href='https://t.me/rzdelivery_bot' target='_blank' rel='noopener' style='color: #3E77AA;'>chatbot</a>",
+        "service": {
+            "title": "Our services and offers",
+            "sub_title": "The main advantages of delivery services are speed, reliability and convenience.",
+            "delivery_title": "Parcels delivery",
+            "delivery_description": "We will deliver your goods to ROZETKA points across Ukraine",
+            "e_title": "Electronic document flow",
+            "e_description": "You will be able to view all your acts and have access to them in Vchasno service",
+            "api_title": "API integration",
+            "api_description": "Integration through API for registration and parcels tracking in Ukraine",
+            "help_title": "Helping the manager",
+            "help_description": "You will always be able to contact our manager to quickly resolve the issue"
+        },
+        "questions": {
+            "title": "FAQ",
+            "question_1": "What is the cost of services?",
+            "description_1": "<p>Organization of one shipment delivery – 39 UAH.</p> <p>Storage of the shipment at the ROZETKA store during the entire term of the shipment reserve is free of charge.</p> <p>Returning of the shipment to the pick-up point (if the package is rejected) is free of charge.</p>",
+            "question_2": "What are the terms of delivery to the ROZETKA store?",
+            "description_2": "Usually, the delivery time to the ROZETKA store is 5 days from the moment of receipt of the shipment. If the package is sent from Kyiv, the delivery time is 2-4 days.",
+            "question_3": "At what time can parcels be handed over to ROZETKA pick-up points?",
+            "description_3": "During the working hours of the selected pick-up point.",
+            "question_4": "Can the pick-up point refuse to accept the shipment?",
+            "description_4": "<p>Yes, they can. During the reception of the shipment, <strong>its cargo and dimensional characteristics, packaging and marking are checked. If something doesn't meet the requirements, the shipment won't be accepted.</strong></p>",
+            "question_5": "How many days is the shipment kept at the ROZETKA store before it's returned?",
+            "description_5": "<p>In ROZETKA store – 10 days.</p> <p>In ROZETKA store, who work under a franchise:</p> – 5 days if it's postpayment delivery; <br> - 16 days if the order was paid online. <br> The storage period is displayed in the package information.",
+            "question_6": "Can the buyer inspect the product at the ROZETKA store and refuse to receive it?",
+            "description_6": "Yes, the buyer can inspect the product before receiving it and refuse it. The seller pays for the delivery of the shipment, regardless of whether the buyer picks up the order or refuses it.",
+            "question_7": "When is the parcel returned to the sender?",
+            "description_7": "After the expiration of the storage period, or immediately after the client refuses the parcel at the ROZETKA store.",
+            "question_8": "If the buyer refused the product or didn't pick it up, how does the return process work?",
+            "description_8": "After the buyer refuses at the ROZETKA store or cancels the order, the package is automatically returned to the pick-up point from which the shipment was made.",
+            "question_9": "Can the seller inspect returned shipments at the pick-up point?",
+            "description_9": "Yes, you can inspect returned items at the pick-up points until you receive the item return register.",
+            "question_10": "How does payment for delivery services at ROZETKA stores work?",
+            "description_10": "Payment for services is made according to the invoice sent to the seller in the «Vchasno» electronic document management service. The bill for payment comes together with the act of providing services on the 10th of each subsequent calendar month, i.e. for September – in October, for October – in November, etc. <br> Payment is accepted exclusively from the current account of the  individual entrepreneur or the legal entity with which the contract for logistics services has been concluded."
+        },
+        "app_store": {
+            "title": "Download the sender app",
+            "text": "Create and track your departures"
+        },
+        "branches": {
+            "title": "Branches",
+            "departure": "Departure",
+            "receiving": "Receiving",
+            "on_map": "Оn the map",
+            "address_list": "Address list",
+            "entry_city": "Enter your city to view available branches"
+        }
+    },
+
+    "auth": {
+        "authorization": "Authorization",
+        "registration": "Registration",
+        "get_register": "Sign up",
+        "done_register": "I am already registered",
+        "confirmation_code": "Verification code",
+        "repeat_code": "Submit the code again",
+        "come_password": "Create a password",
+        "password": "Password",
+        "password_confirm": "Password again",
+        "restore_password": "Restore password",
+        "update_password": "Restore password",
+        "set_password": "Set password",
+        "safe_my": "Remember me",
+        "enter_password": "Enter a password",
+        "re_enter_password": "Re-enter a password",
+        "access_blocked": "Access is blocked",
+        "list_password": {
+            "list_1": "Password must contain between 8-16 characters",
+            "list_2": "Password must contain at least one capital letter;",
+            "list_3": "Password must contain only Latin letters;",
+            "list_4": "Password must contain at least one number or special characters from the list @$!%*?& ;",
+            "list_5": "Password must not match login;",
+            "list_6": "Password must not match blacklisted passwords (e.g., 12345q, 123456, qwerty1, 1q2w3e4r, etc.)"
+        },
+        "info_text_1": "We have sent a verification code to the number <strong>{{param}}</strong>. Enter the code to continue registration.",
+        "info_text_2": "Unfortunately, access to authorization/registration is blocked due to exceeding the number of attempts. Access is blocked for one hour. Come back later <strong>{{mm}} minute {{ss}} sec</strong>",
+        "checkbox_text_1": "By registering, you agree to the terms of the <a href='/auth/registration/rules' style='color: #05BC52;' data-test='personalDataLink'>provision on the processing and protection of personal data</a>",
+        "checkbox_text_2": "I agree with the <a href='#' style='color: #05BC52' data-test='offerLink'>offer</a>",
+        "only_mp": "Pay attention, for now registration is available only for ROZETKA Marketplace sellers",
+        "error_login": "Authorization error"
+    },
+    "errors": {
+        "required_field": "Mandatory field",
+        "maxLength": "Min length {{maxlength}} characters",
+        "minLength": "Max length {{minlength}} characters",
+        "min": "Minimum {{min}}",
+        "max": "Maximum {{max}}",
+        "pattern_number": "Only number",
+        "pattern_password": "The password does not match the requirements.",
+        "incorrect_password_repeat": "The entered new passwords do not match."
+    },
+    "form_errors": {
+        "required_field": "Mandatory field",
+        "min": "Minimum",
+        "max": "Maximum",
+        "minlength": "At least",
+        "maxlength": "No more than",
+        "characters": "characters",
+        "incorrect_new_password_repeat": "The entered new passwords do not match.",
+        "pattern": "The does not match the requirements."
+    },
+    "parcels": {
+        "recipient_location": "Recipient's address",
+        "parcel_type": "Parcel type",
+        "parcel_type_delivery": "RZ Delivery parcels",
+        "parcel_type_mp": "MP parcels",
+        "parcels-list": {
+            "title": "Parcels",
+            "table": {
+                "id": "Number",
+                "create_date": "Creation date",
+                "send_date": "Status change date",
+                "plan_delivery": "Planned delivery time",
+                "status": "Status",
+                "insurance_cost": "Declared cost, UAH",
+                "cost_delivery": "Delivery cost, UAH",
+                "weight": "Weight, kg",
+                "description": "Description",
+                "sender": "Sender",
+                "sender_phone": "Sender's phone",
+                "sender_location": "Sender's address",
+                "recipient": "Recipient",
+                "recipient_name": "Recipient name",
+                "recipient_phone": "Recipient's phone",
+                "recipient_location": "Recipient's address",
+                "delivery_payer": "Payer",
+                "create_new": "Create your first shipment independently",
+                "change_filters": "Change query and try again",
+                "places": "Number of seats",
+                "cost": "Amount of return delivery, UAH",
+                "order": "Order",
+                "departure_date": "Departure date",
+                "commission": "Commission",
+                "payer": {
+                    "sender": "Sender",
+                    "receiver": "Receiver"
+                }
+            },
+            "un_archive": "The selected packages have been successfully unarchived and moved to the 'Parcels' section",
+            "archive": "The selected packages have been successfully archived and moved to the 'Archived Parcels' section",
+            "delete": "Selected parsels was deleted",
+            "return": "Selected parsels was cancelled"
+        },
+        "parcels-detail": {
+            "title": "About the parcel",
+            "parcels_list_active": "Parcels list",
+            "parcels_list_archive": "List of archive parcels",
+            "delivery_pay": "Delivery and payment",
+            "payer": "Delivery payer",
+            "cash_back": "Backward delivery money",
+            "receiving_address": "Receiving address",
+            "departure_address": "Departure address",
+            "params": "Parcel parameters",
+            "params_lhw": "Parameters (LHW)",
+            "order": "Order number",
+            "announced_price": "Declared cost",
+            "seats": "seats",
+            "create": "create",
+            "update": "update",
+            "delivery_date": "Delivery date",
+            "expiration_date": "Reserved date",
+            "parcel_history": "Parcel status history"
+        },
+        "parcels-ttn": {
+            "title": "Create Waybill",
+            "last_name": "Last name",
+            "name": "First name",
+            "surname": "Patronymic",
+            "city": "City",
+            "street": "Street",
+            "department": "Department",
+            "sender": "Sender data",
+            "receiver": "Recipient data",
+            "parcel_parameters": "Parcel parameters",
+            "payment": "Payment",
+            "width": "Width, cm",
+            "long": "Length, cm",
+            "height": "Height, cm",
+            "volume": "Bulk weight: <strong>{{volumeWeight}}</strong> m<sup style='font-size: 8px'>3</sup>",
+            "weight": "Weight, kg",
+            "seats": "Number of seats",
+            "optional": "Optional",
+            "create_ttn": "Create",
+            "payer_delivery": "Delivery payer",
+            "recipient": "Recipient",
+            "on_score": "On account",
+            "pay_office": "At the office",
+            "cash_back_sum": "Cashback amount, UAH",
+            "successful_create": "The waybill created successfully",
+            "search_select": "Search from 3 characters",
+            "register_on_evo": "To choose return delivery of funds, register on the EVO portal <a href='https://onboarding.rozetkapay.com' style='color: #3E77AA;' target='_blank' rel='noopener'>https://onboarding.rozetkapay.com</>"
+        },
+        "tracking": {
+            "info": "Information about the parcel",
+            "title_form": "Enter the parcel number",
+            "not_found1": "No parcel found for {{parcelId}}."
+        },
+        "balance": {
+            "title": "Balance",
+            "add": "To replenish",
+            "add_sum": "Replenishment sum, uah",
+            "history": {
+                "title": "Transaction history",
+                "type": "Transaction type",
+                "order": "Order number",
+                "balance": "Current balance",
+                "balance_change": "Changed balance",
+                "account": "Invoice number",
+                "en": "Waybill number"
+            },
+            "payment": {
+                "title": "Accounts payable",
+                "sum": "Invoice amount"
+            }
+        },
+        "filter": {
+            "clear": "Clear all",
+            "show": "Show"
+        },
+        "dialog": {
+            "share": {
+                "title": "Share",
+                "text": "The text of your message"
+            },
+            "delete": {
+                "title": "Deleting parcels",
+                "text": "Do you want to delete selected parcels?",
+                "submit": "Delete"
+            },
+            "return": {
+                "title": "Сanceling the parcel",
+                "text": "Are you sure you want to cancel the parcel?",
+                "submit": "Submit",
+                "input": "Reason for cancellation"
+            }
+        },
+        "commissions": {
+            "title_text": "Commission for money transfer",
+            "tooltip_text": "If payment for the goods is made in ROZETKA stores, the RozetkaPay cash desk (\"FC EVO\" LLC) has a commission for the transfer of funds in favor of the seller in the amount of 1.5% + UAH 15 for 1 transfer"
+        }
+    },
+    "maps": {
+        "lay_route": "Lay a route"
+    },
+    "not-available": {
+        "verified": {
+            "title": "Choose a connection option",
+            "sub_title": "Selling on ROZETKA Marketplace",
+            "sub_title_2": "I do not have a contract with ROZETKA",
+            "has_selling_text": "<p>For ROZETKA Marketplace sellers, there is a simplified connection to the ROZETKA Delivery service. Enter the token from the <a href='https://seller.rozetka.com.ua/main/modules/octopus/octopus-settings' target='_blank'  rel='noopener' style='color: #3E77AA'>seller's personal account</a></p>",
+            "token": "Token",
+            "token_info": "<p>In order to receive a token, go to the ROZETKA Marketplace account in the 'Issuing in ROZETKA' section, the 'Settings' tab and copy the token.</p><p>If you do not have access to the account, please contact your manager.</p>",
+            "submit_button": "Activate",
+            "token_active": "You have been successfully activated",
+            "no_agree": "If you do not sell on ROZETKA, connection to the service is possible upon application",
+            "connect": "Connect",
+            "create_request": "Create an application",
+            "connection_forms": {
+                "title": "Application for connection",
+                "text_1": "Specify the cities for sending parcels",
+                "text_2": "Added shipping cities",
+                "text_3": "I want to send parcels from the city of",
+                "phone_hint": "Registred phone",
+                "check_box_text": "Call another phone number",
+                "contact_user": "Contact person",
+                "has_shop": "I have a store website",
+                "has_network": "I have a store social network",
+                "link": "Link",
+                "send_success": "Thank you for your application!",
+                "send_success_text": "We will contact you soon to agree on the details. You can always contact us if you have additional questions."
+            }
+        },
+        "inactive": {
+            "text": "<p>Your account is in a blocked or inactive status.</p><p>To activate access to the cabinet functionality, please contact your manager.</p>"
+        }
+    },
+    "card_payment": "Сard payment",
+    "download_invoice": "Download invoice pdf",
+    "invoice_status": {
+        "wait": "Wait",
+        "paid": "Paid"
+    },
+    "messages": {
+        "title": "Correspondence with support",
+        "from_zendesk": "From ROZETKA",
+        "messages_list": "Messages list",
+        "view_status": "View status",
+        "create_source": "Source",
+        "cabinet": "From cabinet",
+        "zendesk": "From ROZETKA",
+        "unread": "Unread",
+        "read": "Read",
+        "sort_options": {
+            "number": "Number",
+            "date": "Create date",
+            "status": "Status"
+        },
+        "correspondence": {
+            "requests": "Requests",
+            "empty_message": "Select a chat to view messages",
+            "empty_message_2": "The request list is empty",
+            "empty_sub_message": "Create the first dialogue yourself",
+            "dialog": {
+                "ad_file": "Add a file",
+                "input_message": "Enter a message",
+                "files": "files",
+                "create_message": "Creating a request",
+                "create_message_button": "Create a request"
+            },
+            "input_search": "Search by number ...",
+            "write_message": "Write a message"
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "my_profile": {
+            "title": "My profile",
+            "full_name": "Full name",
+            "email": "E-mail",
+            "empty": "Unknown",
+            "delete_account": "Delete account",
+            "deleting_account": "Account deletion",
+            "warning_text": "Are you sure you want to delete your account?",
+            "warning_text_2": "<strong>Pay attention!</strong> After confirming this action, your account will be deleted, and access to information in it will be lost forever. However, the contractual relationship between our company and you will not be terminated. If you wish to terminate the contract, please contact us at userdata@rozetka.delivery."
+        },
+        "template": {
+            "title": "Templates",
+            "create": "Create a template",
+            "save_template": "Save template",
+            "table": {
+                "name": "Name",
+                "date": "Created date",
+                "description": "Description",
+                "price": "Declared price"
+            },
+            "empty_title": "The template list is empty",
+            "empty_sub_title": "Fill in the required fields and save your first template for future use",
+            "create_template": {
+                "link_back": "Templates list",
+                "name_template": "Template name",
+                "city": "City of departure",
+                "department_sending": "Department for sending"
+            },
+            "dialog": {
+                "title_2": "Delete a template",
+                "title_3": "Delete templates",
+                "text_del": "Are you sure you want to delete this template? Once deleted, it will not be available for further use",
+                "text_del_2": "Are you sure you want to delete the selected templates? Once deleted, they will not be available for further use"
+            },
+            "create_success": "Template created successfully",
+            "data_saved": "Data saved",
+            "template_not_selected": "Template not selected",
+            "deleted_success": "Тhe selected templates were successfully deleted",
+            "copy": "COPY"
+        }
+    },
+    "statuses": {
+        "10010": "Заплановано",
+        "10020": "Готово до передачі",
+        "10030": "Прийнято від продавця",
+        "10040": "Помістили в контейнер",
+        "10050": "Готове для перевізника",
+        "10060": "Відправлення скасовано",
+        "10070": "Прийнято перевізником",
+        "20010": "В дорозі",
+        "20020": "Посилка отримана на РЦ",
+        "30010": "У дорозі з РЦ",
+        "40040": "Готово до видачі",
+        "40050": "Клієнт відмовився",
+        "40060": "Передано кур'єру",
+        "40070": "Вийшов термін зберігання",
+        "40080": "Термін зберігання подовжено",
+        "50010": "Повернення",
+        "50011": "Повернення пакують у контейнер",
+        "50012": "Повернення передано кур'єру",
+        "50013": "Повернення отримано на РЦ",
+        "50015": "Повернення прямує до Магазину ROZETKA",
+        "50020": "Повернення чекає відправника у Магазині ROZETKA",
+        "60010": "Скасовано",
+        "60030": "Видано",
+        "60040": "Повернено"
+    },
+    "paying_bill": {
+        "has_error": "Payment {{invoiceId}} has not been paid. Please repeat the operation again",
+        "paid": {
+            "title": "Thank you, your payment {{invoiceId}} has been successfully paid",
+            "button": "Return to your personal account"
+        },
+        "wait": {
+            "title": "Payment {{invoiceId}} is waiting",
+            "button": "Update a status"
+        }
+    }
+}

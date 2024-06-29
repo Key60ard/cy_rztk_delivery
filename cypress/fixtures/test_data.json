@@ -1,0 +1,16 @@
+{
+    "VALID_PARCEL_NUMBER" : "RMP-812560904",
+    "UNEXIST_PARCEL_NUMBER" : "RMP-812560905",
+    "INVALID_PARCEL_NUMBER" : "0000000000",
+
+    "VALID_PHONE_NUMBER" : "123456789",
+    "INVALID_PHONE_NUMBER" : "123456783",
+    "VALID_PASSWORD" : "123qwe",
+    "INVALID_PASSWORD" : "123qwe",
+
+    "CITY_NAME" : "Odesa",
+
+    "DOWNLOAD_DIR_WIN" : "C:\\Users\\Green\\Downloads\\",
+    "FILE_NAME_TARIFF_MP" : "tariff-mp.pdf",
+    "FILE_NAME_TARIFF_OTHER" : "tariff-other.pdf"
+}
