@@ -10,7 +10,7 @@ describe('Branches Searching Tests', () => {
         branchesPage.visit()
       })
 
-    it('User can open Department list of the city', () => {
+    it('User can open Departments list of the city', () => {
         branchesPage.openDepartureTab()
         branchesPage.openReceivingTab()
         branchesPage.clickChipsOdesa()

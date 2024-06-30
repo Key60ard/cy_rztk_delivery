@@ -1,5 +1,3 @@
-const { elements } = require("./ParcelPage");
-
 class HomePage {
 
     elements = {

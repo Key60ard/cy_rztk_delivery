@@ -1,22 +1,23 @@
 class TariffsPage {
 
     elements = {
-        tariff_mp_file_link : () => cy.get('button.button-reg span').eq(2),
-        tariff_other_file_link : () => cy.get('button.button-reg span').eq(2)
+        tariffMpFileLink : () => cy.get('a').should('have.attr', 'href', 'https://s3-octopus.rozetka.ua/get/octopus/tariff-mp.pdf'),
+        tariffOtherFileLink : () => cy.get('a').should('have.attr', 'href', 'https://s3-octopus.rozetka.ua/get/octopus/tariff-other.pdf'),
     }
 
     visit() {
         cy.visit('/tracking/tariffs');
     }
 
-    trackParcel() {
-      
-        this.elements.parcelNumberField()
+    clickOnDownloadMpFileLink() {
+        this.elements.tariffMpFileLink()
                      .should('be.visible')
-                     .click({force: true})
-                     .type('1234567890123{enter}'); 
-        // this.elements.parcelTrackButton().click();
-
+                     .click();
+    }
+    clickOnDownloadOtherFileLink() {
+        this.elements.tariffOtherFileLink()
+                     .should('be.visible')
+                     .click();
     }
 }
 
