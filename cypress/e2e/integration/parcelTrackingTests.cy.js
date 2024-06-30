@@ -33,7 +33,8 @@ describe('Tracking Parcels Tests', () => {
         homePage.visit()
         homePage.supportServiceClick()
     })
-    it.only('', () => {
+
+    it('', () => {
         homePage.visit()
         homePage.languageSwitcherClick()
     })

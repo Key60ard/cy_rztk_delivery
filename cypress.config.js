@@ -26,6 +26,7 @@ const createEsbuildPlugin = require("@badeball/cypress-cucumber-preprocessor/esb
 
 
 module.exports = defineConfig({
+  pageLoadTimeout: 15000,
   e2e: {
     baseUrl: 'https://rozetka.delivery',
     async setupNodeEvents(on, config) {
