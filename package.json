@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "cypress:run-features": "./node_modules/.bin/cypress run --spec='cypress/integration/features/*'"
+    "test": "cucumber-js",
+    "cypress:run-features": "./node_modules/.bin/cypress run --spec='cypress/e2e/integration/features/*'"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "@badeball/cypress-cucumber-preprocessor": "^20.1.0",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
     "cypress": "^13.12.0",
-    "cypress-axe": "^1.5.0"
+    "cypress-axe": "^1.5.0",
+    "hamjest": "^4.1.0"
   }
 }

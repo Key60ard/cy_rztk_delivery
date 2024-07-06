@@ -1,5 +1,10 @@
 Feature: Parcel management
 
+ Scenario: User can search for a parcel
+    Given I am logged in
+    When I search for parcel with number "12345"
+    Then I should see the parcel details
+
   Scenario: User can create a new parcel
     Given I am logged in
     When I navigate to the create parcel page
@@ -14,11 +19,6 @@ Feature: Parcel management
     And I have a parcel with number "12345"
     When I delete the parcel with number "12345"
     Then I should see "Parcel deleted successfully"
-
-  Scenario: User can search for a parcel
-    Given I am logged in
-    When I search for parcel with number "12345"
-    Then I should see the parcel details
 
   Scenario: User can archive a parcel
     Given I am logged in
