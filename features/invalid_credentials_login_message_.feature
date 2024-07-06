@@ -1,4 +1,4 @@
-Feature: Login to App
+Feature: invalid_credentials_login_message_
 
   Scenario: User cannot log in with incorrect credentials
     Given I visit login page
